@@ -1,0 +1,13 @@
+.container {
+    height: 100vh !important;
+}
+.result {
+    font-size: 22px;
+}
+.version {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: #c9c4c45c;
+    font-size: 26px;
+}

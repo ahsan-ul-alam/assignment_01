@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+
+<body class="bg-dark">
+    <div class="container ofset-2 d-flex justify-content-center align-items-center">
+        <div class="wrapper w-50 sm-w-100">
+            <h1 class="text-center mb-3 text-white">Calculator</h1>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="inp1" placeholder="Value One">
+            </div>
+
+            <div class="mb-3">
+                <select id="operation" class="form-control">
+                    <option>Select Operation</option>
+                    <option value="+">Addition (+)</option>
+                    <option value="-">Subtraction (-)</option>
+                    <option value="*">Multiplication (*)</option>
+                    <option value="/">Division (/)</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <input type="text" class="form-control" id="inp2" placeholder="Value two">
+            </div>
+            <button class="checkBtn btn btn-primary w-100">Calculate</button>
+            <div class="result alert alert-success my-4">Result will appear here</div>
+        </div>
+    </div>
+    <!-- Version message  -->
+    <span class="text-whit version">Version 1.0</span>
+</body>
+<script src="./assets/js/custom.js"></script>
+
+</html>

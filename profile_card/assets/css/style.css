@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:gray;
+    font-family: "Merriweather", serif;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Left containers css start here  */
+.card {
+    height: fit-content;
+    max-width: 450px;
+    padding: 7px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 0px 19px 0px rgba(6, 5, 5, 0.75);
+    text-align: center;
+}
+.card-header {
+    height: 150px;
+    border-radius: 8px 8px 0px 0px;
+    background: url("../img/cover.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.profile-pic{
+    height: 140px;
+    width: 140px;
+    margin-top: -70px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.description{
+    text-align: justify;
+    font-size: 18px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.card-footer{
+    margin: 8px 0;
+}
+.social-links{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 2px;
+    margin: 10px 5px;
+}
+.icon{
+    font-size:30px;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 6px 20px;
+    margin: 5px 10px;
+    border-radius: 8px;
+}
+.hireme{
+    background: #070830;
+    color: #fff;
+}
+.resume{
+    color: #fff;
+    background: #195F16;
+}
+
+
+
+/* =================================================== 
+================== Additional Css ==================== 
+====================================================*/
+
+.muted{
+    color: #291f1fcf;
+    margin: 5px 0 10px 0;
+}
+.text-left{
+    padding: 5px 0;
+    text-align: left;
+}
+.heading{
+    padding: 3px;
+    background: #7a7a7a47;
+    border-radius: 10px 0 10px 0;
+}
+.contact{
+    font-size: 16px;
+    color:#08851b ;
+}
+.youtube{
+    color: red;
+}
+.facebook{
+    color: #4267B2;
+}
+.twitter{
+    color: #1DA1F2;
+}
+.linkedin{
+    color: #0077b5;
+}
+.github{
+    color: 	#24292e;
+}
